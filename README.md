@@ -14,7 +14,6 @@ To enable format with 42 C-Format on save, add configuration as below.
 
 ```json
 {
-    "editor.formatOnSave": true,
     "[c]": {
         "editor.defaultFormatter": "keyhr.42-c-format"
     },
@@ -26,10 +25,6 @@ To enable format with 42 C-Format on save, add configuration as below.
 - `c_formatter_42` ([GitHub Repository](https://github.com/cacharle/c_formatter_42))
 
 ## Release Notes
-
-### 0.0.2
-
-Added extension icon.
 
 ### 0.0.1
 

@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 import * as cp from 'child_process';
 
-export let outputChannel = vscode.window.createOutputChannel('c_formatter_42');
+export let outputChannel = vscode.window.createOutputChannel('42-c-format');
 
 class DocumntFormattingEditProvider implements vscode.DocumentFormattingEditProvider {
 
@@ -56,7 +56,6 @@ class DocumntFormattingEditProvider implements vscode.DocumentFormattingEditProv
             return reject();
           }
 
-          outputChannel.appendLine(stdout);
           return resolve(this.getEdits(document, stdout));
         } catch (e) {
           reject(e);
