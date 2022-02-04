@@ -27,6 +27,10 @@ To enable format with 42 C-Format on save, add configuration as below.
 
 ## Release Notes
 
+### 0.0.2
+
+Added extension icon.
+
 ### 0.0.1
 
 Initial release.

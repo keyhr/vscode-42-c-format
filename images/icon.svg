@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg827"
+   inkscape:export-filename="/Users/wsbky/Downloads/bitmap.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="l.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview829"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="200mm"
+     inkscape:zoom="0.30978584"
+     inkscape:cx="169.47192"
+     inkscape:cy="111.36726"
+     inkscape:window-width="1438"
+     inkscape:window-height="805"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs824">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect1057"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1053">
+      <path
+         id="lpe_path-effect1057"
+         style="stroke-width:0.197392"
+         class="powerclip"
+         d="M -4.4870529,-5 H 204.53886 V 205.28642 H -4.4870529 Z M 173.33157,100.14321 A 73.305664,74.607903 0 0 0 100.0259,25.535309 73.305664,74.607903 0 0 0 26.720238,100.14321 a 73.305664,74.607903 0 0 0 73.305662,74.6079 73.305664,74.607903 0 0 0 73.30567,-74.6079 z" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1678"
+       style="stroke-width:3.90592;fill:#5f7eb8;fill-opacity:1"
+       d="M 377.95312,0 A 377.95276,377.95276 0 0 0 0,377.95312 377.95276,377.95276 0 0 0 377.95312,755.90625 377.95276,377.95276 0 0 0 608.33203,677.44531 L 550.72656,602.55664 A 283.46457,283.46457 0 0 1 377.95312,661.41797 283.46457,283.46457 0 0 1 94.488281,377.95312 283.46457,283.46457 0 0 1 377.95312,94.488281 283.46457,283.46457 0 0 1 550.72656,153.34766 L 608.33203,78.460938 A 377.95276,377.95276 0 0 0 377.95312,0 Z"
+       transform="scale(0.26458333)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.889px;line-height:1.25;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#5f7eb8;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="67.204178"
+       y="141.28754"
+       id="text3328"><tspan
+         sodipodi:role="line"
+         id="tspan3326"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:112.88899924px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;stroke-width:0.264583;fill:#5f7eb8;fill-opacity:1"
+         x="67.204178"
+         y="141.28754">42</tspan></text>
+  </g>
+</svg>
