@@ -2,7 +2,7 @@
   "name": "42-c-format",
   "displayName": "42 C-Format",
   "description": "VScode extension for c_formatter_42, which is a c-language formatter conforms to Norm v3 in 42 schools.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "keyhr",
   "icon": "images/icon.png",
   "repository": {
