@@ -17,7 +17,7 @@ $ pip3 install c_formatter_42
 $ pip3 install --user c_formatter_42   // if you don't have privilege
 ```
 
-- Then enable format with 42 C-Format on save, adding configuration as below.
+- Then enable formatting with 42 C-Format, adding configuration as below.
 
 ```json
 {
