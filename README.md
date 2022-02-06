@@ -12,6 +12,11 @@ Provide document formatting using c_formatter_42.
 
 - **Installing [`c_formatter_42`](https://github.com/cacharle/c_formatter_42) is required.**
 
+```
+$ pip3 install c_formatter_42
+$ pip3 install --user c_formatter_42   // if you don't have privilege
+```
+
 - Then enable format with 42 C-Format on save, adding configuration as below.
 
 ```json
@@ -27,6 +32,10 @@ Provide document formatting using c_formatter_42.
 - `c_formatter_42` ([GitHub Repository](https://github.com/cacharle/c_formatter_42))
 
 ## Release Notes
+
+### 0.0.3
+
+Added an instruction for installing c\_formatter\_42.
 
 ### 0.0.2
 

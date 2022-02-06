@@ -38,7 +38,7 @@ class DocumntFormattingEditProvider implements vscode.DocumentFormattingEditProv
       child.stderr.on('data', chunk => stderr += chunk);
       child.on('error', err => {
         if (err && (<any>err).code === 'ENOENT') {
-          vscode.window.showInformationMessage('c_formatter_42 is not executable.');
+          vscode.window.showInformationMessage('c_formatter_42 is not executable. Please install c_formatter_42. Read README for more info.');
           return resolve([]);
         }
         return reject(err);
