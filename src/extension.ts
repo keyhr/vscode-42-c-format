@@ -38,7 +38,7 @@ class DocumntFormattingEditProvider implements vscode.DocumentFormattingEditProv
       child.stderr.on('data', chunk => stderr += chunk);
       child.on('error', err => {
         if (err && (<any>err).code === 'ENOENT') {
-          vscode.window.showInformationMessage('c_formatter_42 is not executable. Please install c_formatter_42. Read README for more info.');
+          vscode.window.showInformationMessage('c_formatter_42 is not executable. Please install c_formatter_42. Please read README and check requirements.');
           return resolve([]);
         }
         return reject(err);
@@ -49,7 +49,9 @@ class DocumntFormattingEditProvider implements vscode.DocumentFormattingEditProv
             outputChannel.show();
             outputChannel.clear();
             outputChannel.appendLine(stderr);
-            return reject('Cannot format');
+            outputChannel.appendLine('42-c-format: Please read README and check requirements.');
+
+            return reject('c_formatter_42 error');
           }
 
           if (code !== 0) {
