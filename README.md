@@ -31,6 +31,13 @@ $ pip3 install --user c_formatter_42   // if you don't have privilege
 
 - `c_formatter_42` ([GitHub Repository](https://github.com/cacharle/c_formatter_42))
 
+## Issues
+
+Issues and pull requests are welcomed. Please check the suitable repos for your issues.
+
+- Issues with formatter: [dawnbeen/c\_formatter\_42/issues](https://github.com/dawnbeen/c_formatter_42/issues)
+- Issues with extension: [keyhr/vscode-42-c-format/issues](https://github.com/keyhr/vscode-42-c-format/issues)
+
 ## Release Notes
 
 ### 0.0.4
