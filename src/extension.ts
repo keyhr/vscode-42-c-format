@@ -1,5 +1,7 @@
 import * as vscode from 'vscode';
 import * as cp from 'child_process';
+import * as os from 'node:os';
+import { openStdin } from 'process';
 
 export let outputChannel = vscode.window.createOutputChannel('42-c-format');
 
@@ -32,7 +34,7 @@ class DocumntFormattingEditProvider implements vscode.DocumentFormattingEditProv
 
       let stdout = '';
       let stderr = '';
-      let child = cp.spawn('python3', ['-m', 'c_formatter_42'], { cwd: vscode.workspace.rootPath });
+      let child = cp.spawn((os.platform() === 'win32') ? 'python' : 'python3', ['-m', 'c_formatter_42'], { cwd: vscode.workspace.rootPath });
       child.stdin.end(textContent);
       child.stdout.on('data', chunk => stdout += chunk);
       child.stderr.on('data', chunk => stderr += chunk);
