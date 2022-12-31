@@ -37,6 +37,10 @@ Issues and pull requests are welcomed.
 
 ## Release Notes
 
+### 0.0.5
+
+Added windows support.
+
 ### 0.0.4
 
 Impoved output when catching an error.
