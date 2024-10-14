@@ -13,8 +13,8 @@ Provide document formatting using c_formatter_42.
 - **Installing [`c_formatter_42`](https://github.com/cacharle/c_formatter_42) is required.**
 
 ```
-$ pip3 install c_formatter_42
-$ pip3 install --user c_formatter_42   // if you don't have privilege
+pip3 install c_formatter_42
+pip3 install --user c_formatter_42   // if you don't have privilege
 ```
 
 - Then enable formatting with 42 C-Format, adding configuration as below.
