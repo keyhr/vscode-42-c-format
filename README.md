@@ -29,6 +29,62 @@ $ pip3 install --user c_formatter_42   // if you don't have privilege
 }
 ```
 
+## Configuration
+
+You can customize the formatter execution by configuring the following settings:
+
+### `42-c-format.executable`
+
+- **Type**: `string`
+- **Default**: `"c_formatter_42"`
+- **Description**: The executable name or full path to the formatter.
+
+### `42-c-format.args`
+
+- **Type**: `array` of strings
+- **Default**: `[]`
+- **Description**: Command-line arguments to pass to the formatter.
+
+### Configuration Examples
+
+#### Default Usage (Recommended)
+
+No configuration needed if `c_formatter_42` is installed as a command (e.g., via pipx):
+
+```bash
+$ pipx install c_formatter_42
+```
+
+#### Run as Python Module
+
+If you installed with pip and want to run as a Python module:
+
+```json
+{
+    "42-c-format.executable": "python3",
+    "42-c-format.args": ["-m", "c_formatter_42"]
+}
+```
+
+On Windows, use `"python"` instead of `"python3"`:
+
+```json
+{
+    "42-c-format.executable": "python",
+    "42-c-format.args": ["-m", "c_formatter_42"]
+}
+```
+
+#### Custom Path
+
+Specify a full path to the formatter executable:
+
+```json
+{
+    "42-c-format.executable": "/usr/local/bin/c_formatter_42"
+}
+```
+
 ## Requirements
 
 - `c_formatter_42` ([GitHub Repository](https://github.com/cacharle/c_formatter_42))
@@ -39,13 +95,22 @@ Issues and pull requests are welcomed.
 
 ## Release Notes
 
+### 0.1.0
+
+**Breaking Change**: The default execution method has changed from `python3 -m c_formatter_42` to `c_formatter_42` command.
+
+- Added configurable formatter executable path via `42-c-format.executable` setting
+- Added configurable command-line arguments via `42-c-format.args` setting
+- If you prefer to run as a Python module, please configure the settings as described in the Configuration section
+- Improved error handling and timeout management
+
 ### 0.0.5
 
 Added windows support.
 
 ### 0.0.4
 
-Impoved output when catching an error.
+Improved output when catching an error.
 
 ### 0.0.3
 
