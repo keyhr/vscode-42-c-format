@@ -1,0 +1,21 @@
+{
+  "name": "vscode-extension-dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "pipx ensurepath && pipx install c-formatter-42 && ln -sf /usr/bin/clang-format /home/node/.local/pipx/venvs/c-formatter-42/lib/python3.11/site-packages/c_formatter_42/data/clang-format-linux",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/georgofenbeck/features/lazygit-linuxbinary:1": {}
+  },
+  "runArgs": [
+    // "--platform", "linux/amd64"
+  ]
+}

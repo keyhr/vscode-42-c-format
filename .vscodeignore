@@ -1,6 +1,7 @@
 .vscode/**
 .vscode-test/**
 src/**
+!src/breaking-changes.html
 .gitignore
 .yarnrc
 vsc-extension-quickstart.md

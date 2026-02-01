@@ -1,8 +1,8 @@
 {
   "name": "42-c-format",
   "displayName": "42 C-Format",
-  "description": "VScode extension for c_formatter_42, which is a c-language formatter conforms to Norm v3 in 42 schools.",
-  "version": "0.0.5",
+  "description": "VScode extension for c_formatter_42, which is a C language formatter conforms to Norm v3 in 42 schools.",
+  "version": "0.1.0",
   "publisher": "keyhr",
   "icon": "images/icon.png",
   "repository": {
@@ -27,7 +27,25 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": []
+    "commands": [],
+    "configuration": {
+      "title": "42 C Format",
+      "properties": {
+        "42-c-format.executable": {
+          "type": "string",
+          "default": "c_formatter_42",
+          "description": "The executable name or full path (e.g., 'c_formatter_42', 'python3', or '/usr/bin/python3'). Do not include arguments here."
+        },
+        "42-c-format.args": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [],
+          "description": "Command-line arguments as a list. (e.g., for python, use ['-m', 'c_formatter_42'])."
+        }
+      }
+    }
   },
   "license": "MIT",
   "scripts": {
@@ -52,7 +70,5 @@
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   },
-  "dependencies": {
-    "child_process": "^1.0.2"
-  }
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
